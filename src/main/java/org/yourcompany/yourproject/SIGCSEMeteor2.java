@@ -17,7 +17,7 @@ public class SIGCSEMeteor2 {
     /**
      *reads comma separated data from a file that has a header row. 
      */
-    public static ArrayList<Meteor> readData (String filename) {
+    private static ArrayList<Meteor> readData (String filename) {
         ArrayList<Meteor> meteors = new ArrayList <>();
 
         File dataFile = new File (filename);
