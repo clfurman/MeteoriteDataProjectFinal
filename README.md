@@ -40,25 +40,25 @@ when installing more extensions. Here is an example of a suggested extension tha
    <img width="478" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/93d623e8-1c87-4dac-82a2-590dc8748568">
 
 8. Under Run Configurations add <code>--enable-preview --source 21</code> to VM Options.
-9. Click <code>Run main</code> above the main method to test the code. You should see <code>Let's simulate a vet office.</code>
+   
 
 <hr>
 
 
-4. Open the <b>Meteorite_Landings.csv</b> file and identify the fields you will need to represent in your <code>Meteor</code> record and <code>GeoLocation</code> record. The starter files store dates as <code>String</code> objects.
+1. Open the <b>Meteorite_Landings.csv</b> file and identify the fields you will need to represent in your <code>Meteor</code> record and <code>GeoLocation</code> record. The starter files store dates as <code>String</code> objects.
    NOTE: each row represents an individual meteor and each column represents the data we know about the meteor.
    This data is <bold>immutable data </bold>. Therefore a record is the correct type of storage. 
    <img width="700" alt="image" src="https://github.com/clfurman/MeteoriteDataProject/assets/65421044/0658b41c-bbd6-435a-81b7-172043d7f83c">
 
 
-5. Create your <code>Meteor</code> record. 
+2. Create your <code>Meteor</code> record. 
 
    <img width="250" alt="image" src="https://github.com/clfurman/MeteoriteDataProject/assets/65421044/5ee76669-712f-49b9-ab35-b814ff6340c3">
 
-6. Be sure to add your package at the top of the files and save the file as <b>Meteor.java</b>.
+3. Be sure to add your package at the top of the files and save the file as <b>Meteor.java</b>.
    Since the <code>GeoLocation</code> contains the latitude and longitude values, we don't actually need to store the latitude and longitude values separately.
    You only need to store 8 fields. To add a new Java file to the project, click on the the file icon with the plus symbol.
-7. Create the <code>GeoLocation</code> record. It will contain two fields. Save the file as <b>GeoLocation.java</b>
-8. Modify the runner class, <b>SIGCSEMeteor2.java</b> to ensure the file path for the <b>Meteorite_Landings.csv</b> is where you saved it on your computer.
+4. Create the <code>GeoLocation</code> record. It will contain two fields. Save the file as <b>GeoLocation.java</b>
+5. Modify the runner class, <b>SIGCSEMeteor2.java</b> to ensure the file path for the <b>Meteorite_Landings.csv</b> is where you saved it on your computer.
     Run the <b>SIGCSEMeteor2.java</b> main method to import the data and add the meteors with a mass less than 5000 to a new list. ​
-9. Your solution may be similar to those in the <b>Solution_Files</b> branch.
+6. Your solution may be similar to those in the <b>Solution_Files</b> branch.
