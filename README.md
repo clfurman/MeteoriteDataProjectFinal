@@ -58,7 +58,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 3. Be sure to add your package at the top of the files and save the file as <b>Meteor.java</b>.
    Since the <code>GeoLocation</code> contains the latitude and longitude values, we don't actually need to store the latitude and longitude values separately.
    You only need to store 8 fields. 
-4. Create the <code>GeoLocation</code> record. It will contain two fields. Save the file as <b>GeoLocation.java</b>
+4. Create the <code>GeoLocation</code> record. Be sure to add your package at the top of the file. It will contain two fields. Save the file as <b>GeoLocation.java</b>
 5. Modify the runner class, <b>SIGCSEMeteor2.java</b> to ensure the file path for the <b>Meteorite_Landings.csv</b> is where you saved it on your computer.
     Run the <b>SIGCSEMeteor2.java</b> main method to import the data and add the meteors with a mass less than 5000 to a new list. ​
 6. Your solution may be similar to those in the <b>Solution_Files</b> branch.
