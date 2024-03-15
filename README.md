@@ -7,7 +7,7 @@ when installing more extensions. Here is an example of a suggested extension tha
 
 
 1. Create a new repository from this template by clicking on the green <b>Use this template</b> button and selecting
-   Create a new respository.
+   <b>Create a new respository</b>.
 
    <img width="501" alt="image" src="https://github.com/clfurman/PatternMatchingSealed/assets/65421044/884e64b4-f9bc-4680-8ead-ee2bc1ef121a">
 
